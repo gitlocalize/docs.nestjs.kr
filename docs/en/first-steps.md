@@ -37,7 +37,6 @@ The `project` directory will be created, node modules and a few other boilerplat
 Here's a brief overview of those core files:
 
 
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | `app.controller.ts`      | A basic controller with a single route.                                                                             |
 | `app.controller.spec.ts` | The unit tests for the controller.                                                                                  |
 | `app.module.ts`          | The root module of the application.                                                                                 |
@@ -79,7 +78,7 @@ Note that a project scaffolded with the Nest CLI creates an initial project stru
 Nest aims to be a platform-agnostic framework. Platform independence makes it possible to create reusable logical parts that developers can take advantage of across several different types of applications. Technically, Nest is able to work with any Node HTTP framework once an adapter is created. There are two HTTP platforms supported out-of-the-box: [express](https://expressjs.com/) and [fastify](https://www.fastify.io). You can choose the one that best suits your needs.
 
 
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 | `platform-express` | [Express](https://expressjs.com/) is a well-known minimalist web framework for node. It's a battle tested, production-ready library with lots of resources implemented by the community. The `@nestjs/platform-express` package is used by default. Many users are well served with Express, and need take no action to enable it. |
 | `platform-fastify` | [Fastify](https://www.fastify.io/) is a high performance and low overhead framework highly focused on providing maximum efficiency and speed. Read how to use it [here](/techniques/performance).                                                                                                                                  |
 
