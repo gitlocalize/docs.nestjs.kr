@@ -39,12 +39,12 @@ $ nest new project-name
  |
 --- | ---
 `app.controller.ts` | 하나의 라우트를 가진 기본 컨트롤러.
-`app.controller.spec.ts` | 컨트롤러(controller) 유닛 테스트(unit tests)
+`app.controller.spec.ts` | 컨트롤러(controller) 유닛 테스트(unit tests).
 `app.module.ts` | 어플리케이션의 루트 모듈(root module).
-`app.service.ts` | 단일 메소드를 사용하는 기본 서비스(service)입니다.
+`app.service.ts` | 단일 메소드를 사용하는 기본 서비스(service).
 `main.ts` | 핵심 함수인 `NestFactory`를 사용하여 Nest 어플리케이션 인스턴스를 생성하는 엔트리 파일(entry file).
 
-`main.ts`는 애플리케이션을 **부트 스트랩**하는 비동기(async) 함수를 포함하고 있습니다.
+`main.ts`는 애플리케이션을 부트 스트랩하는 비동기(async) 함수를 포함하고 있습니다.
 
 ```typescript
 @@filename(main)
@@ -81,7 +81,7 @@ Nest는 플랫폼 지식 없이도 구동할 수 있는(platform-agnostic) 프�
  |
 --- | ---
 `platform-express` | [Express](https://expressjs.com/)는 유명한 노드(node) 미니멀 웹 프레임 워크입니다. 수많은 테스트를 거친, 커뮤니티에서 구현한 많은 리소스를 용한 라이브러리로 프로덕션에 사용하기에 부족함이 없습니다.기본적으로는 `@nestjs/platform-express` 패키지가 사용됩니다. 많은 사용자가 Express를 잘 사용하고 있고, 이를 활성화하기 위한 조치를 취할 필요가 없습니다.
-`platform-fastify` | [Fastify](https://www.fastify.io/) 는 최대 효율성과 속도를 제공하는 데 중점을 둔 고성능 및 낮은 오버 헤드 프레임 워크입니다. [여기{/a1 에서 사용 방법을 확인하세요.](/techniques/performance)
+`platform-fastify` | [Fastify](https://www.fastify.io/)는 최대 효율성과 속도를 제공하는 데 중점을 둔 고성능 및 낮은 오버헤드 프레임워크입니다. [여기](/techniques/performance)에서 사용 방법을 확인하세요.
 
 어떤 플랫폼을 사용하든, Nest는 자체 애플리케이션 인터페이스를 생성합니다. `NestExpressApplication` 또는 `NestFastifyApplication` 입니다.
 
